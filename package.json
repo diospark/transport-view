@@ -1,0 +1,40 @@
+{
+    "name": "transport-view",
+    "version": "v0.3.3-beta",
+    "author": "diospark",
+    "description": "node js based app for city traffic monitoring",
+    "contributors": [
+        {
+            "name": "Dmytro Trifonov",
+            "email": "dmytro.trifonov@gmail.com"
+        }
+    ],
+    "scripts": {
+        "start": "nodejs app.js run"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/diospark/transport-view.git"
+    },
+    "dependencies" : {
+        "express" : "3.x",
+        "request" : "*",
+        "mongoose": "*",
+        "ejs"     : "*",
+        "path"    : "*",
+        "nconf"   : "*",
+        "async"   : "*",
+        "bcrypt"  : "*",
+        "googlemaps" : "*",
+        "body-parser" : "*",
+        "cookie-parser" : "*",
+        "serve-favicon" : "*",
+        "express-session" : "*",
+        "method-override" : "*",
+        "serve-static": "*"
+    },
+    "analyze": false,
+    "engines": {
+        "node": ">=0.8"
+    }
+}
