@@ -1,6 +1,5 @@
 
-# livecity  
-#### [![Build Status](https://travis-ci.org/invercity/livecity.svg?branch=master)](https://travis-ci.org/invercity/livecity)
+# transport-view  
 Interactive system for monitoring city traffic  
 Last version: ```0.3.3```  
 ## Features
@@ -8,7 +7,6 @@ Last version: ```0.3.3```
 1. Displaying routes, points, transports;
 2. Displaying transport arrival data;
 3. Point editor (full functionality), route editor (create only), basic guide editor;
-4. Basic authorization.
 
 ### Will be implemented:
 1. Full guide functionality ```0.4.0```
@@ -22,10 +20,10 @@ Last version: ```0.3.3```
 10. Route editor (full functionality) ```1.1.0```
 
 ## Quick guide
-### Installing livecity (Linux users)
+### Installing transport-view (Linux users)
 
 1. Download source, and go to the source folder:  
-```cd livecity```
+```cd transport-view```
 2. Install required software (```mongoDB```, ```nodejs```, ```npm```):  
 ```sudo apt-get install mongodb nodejs npm```
 3. Install dependencies:  
@@ -33,14 +31,14 @@ Last version: ```0.3.3```
 4. Configure application  
 ``` nano config.json```
 
-### Installing livecity (Windows users)
+### Installing transport-view (Windows users)
 
-Currently manual for installing livecity on Windows is not ready  
+Currently manual for installing transport-view on Windows is not ready.  
 In future releases installing scripts will be added
 
 ### Running
 
-To run livecity, just fire in terminal:
+To run transport-view, just fire in terminal:
 ```npm start```
 
 ## Routes
@@ -55,14 +53,3 @@ To run livecity, just fire in terminal:
 
 ```/service/[type]``` - Services
 [TBA]
-
-
-
-## Wiki
-
-Github [wiki] (https://github.com/invercity/livecity/wiki) pages
-
-
-
-
-
